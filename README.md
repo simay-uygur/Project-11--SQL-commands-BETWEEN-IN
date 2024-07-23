@@ -9,7 +9,7 @@ List all columns in the film table where the rental_rate is 0.99, 2.99, or 4.99 
 
 The Queries are: 
 
-´´´
+```
 -- Active: 1721726315493@@localhost@5432@dvdrental@public
 
 -- Task1
@@ -30,4 +30,4 @@ SELECT *
 FROM film
 WHERE rental_rate IN (0.99, 2.99, 4.99) AND replacement_cost IN(12.99, 15.99, 28.99 ); 
 
-´´´
+```
